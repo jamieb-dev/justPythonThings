@@ -1,6 +1,10 @@
-numbers = input("Please enter some numbers: ")
-arr = list(numbers)
+import random
+import numpy
+
+
+arr = numpy.random.randint(1,999,2)
 print("Unsorted: " + str(arr))
+
 
 def mergeSort(arr):
     if len(arr) > 1:
